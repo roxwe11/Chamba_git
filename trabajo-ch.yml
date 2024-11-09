@@ -1,8 +1,8 @@
 server:
-   port: ${PORT:8881}
+port: ${PORT:8881}
 message: Configuracion de cliente en el servidor levantado!
 spring:
-  datasource:
+   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     password: 12345678
     url: jdbc:mysql://localhost:3306/bdchamba?serverTimezone=UTC
